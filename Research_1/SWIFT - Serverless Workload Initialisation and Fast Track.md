@@ -1,12 +1,11 @@
-[[Advance topics of Serverless Computing ]]& [[Serverless Computing 101]]
-Before Starting please checkout the above PDF's for a strong foundation on serverless computing
-Potential Research Questions:
-  - What strategies can be employed to reduce the latency associated with cold starts in serverless computing ?
-  - How can we optimise resource usage and minimise costs for serverless applications with unpredictable workloads ?
-  - What are the best for managing stateful applications in a serverless environment ?
-  [[All about cold start latency in serverless]]
+> Read Serverless Computing-101 and Advance topics of Serverless Computing files for better understanding of this solution
 ## Abstract 
 Serverless computing has revolutionised the way applications are built and deployed, offering scalability, cost-effectiveness and ease of management. However, the promise of serverless computing is often hindered by the debilitating effects of cold start latency, which significantly impacts application performance and user experience. This paper presents SWIFT-serverless, a novel framework designed to mitigate cold start latency in serverless environments. By analysing the root causes of cold start latency and leveraging four key techniques - proactive function initialisation, optimised container reuse, accelerated code preloading- SWIFT - Serverless significantly reduces the overhead associated with serverless workload initialisation, enabling faster and more responsive application execution.
 
 ## Introduction
-Serverless computing has emerged as a paradigm-shifting technology, enabling developers to build and deploy applications without the burden of server management , The serverless model offers numerous benefits, including scalability, cost-effectiveness, and enhanced productivity. However, the serverless promise is often compromised by the phenomenon of cold start latency, which refers to the delayed response times experienced by applications during initial invocation. Cold start latency is a critical performance bottleneck, impacting application
+Serverless computing has emerged as a paradigm-shifting technology, enabling developers to build and deploy applications without the burden of server management . The serverless model offers numerous benefits, including scalability, cost-effectiveness, and enhanced productivity. However, the serverless promise is often compromised by the phenomenon of cold start latency, which refers to the delayed response times experienced by applications during initial invocation. Cold start latency is a critical performance bottleneck, impacting application responsiveness, user experience, and ultimately business success. This research aims ti address the challenges posed by cold start latency in serverless environments proposing a novel framework, SWIFT - Serverless, designed to optimise serverless workload initialisation and minimise latency. By exploring the underlying factors contributing to cold start latency and introducing innovative techniques to mitigate its effects, SWIFT paves the way for faster, more efficient and more responsive serverless application execution.
+
+# Here are 16 ideas for minimising the latency
+
+1. Utilize provisioned concurrency to keep functions warm and ready to respond quickly
+		- Imagine having a team of experts on standby, ready to jump into action at a moment's notice. That's what provisioned concurrency does for serverless functions !! By keeping a pool of pre-initialised functions warm and ready, we can drastically cut down response times. This technique ensures that your functions are always primed to handle incoming requests, eliminating the delay caused by cold starts. With provisioned concurrency, your applications can react swiftly, providing a seamless user experience. It's like having a rapid
