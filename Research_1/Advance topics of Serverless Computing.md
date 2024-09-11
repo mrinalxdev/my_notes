@@ -1,0 +1,6 @@
+- What is event driven architecture 
+- Scalability and auto-scaling
+- Containerisation and serverless 
+- Serverless security and compliance
+- Serverless data processing and analytics
+- Hybrid Cloud integration with serverless
