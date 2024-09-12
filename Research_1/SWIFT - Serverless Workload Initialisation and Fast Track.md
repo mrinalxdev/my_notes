@@ -19,7 +19,7 @@ Serverless computing has emerged as a paradigm-shifting technology, enabling dev
 - #### Use smaller, more focused functions to reduce the amount of code that need to be initialised.
 	- Trying to start a massive truck engine just to drive a short distance. Its inefficient ! Similarly, in serverless functions, initialising a lot of code for a small task can be wasteful. By breaking down functions into smaller, focused tasks, we can reduce the amount of code that needs to be started up. This is like using scooter for short trips instead of the massive trucks. Smaller functions mean less overheard, faster startups, and reduced latency. It's a simple yet effective way to make serverless applications more efficient and responsive, just like choosing
 	
--  Employ caching mechanisms for frequently accessed data to reduce the need for repeated cold starts. 
+- #### Employ caching mechanisms for frequently accessed data to reduce the need for repeated cold starts. 
 	- Think of caching like a shortcut to your favourite coffee shop. Instead of navigating through the entire city (making a cold start), you can take a quick detour to grab your coffee (access cached data). By storing frequently accessed data in a cache, we can avoid repeated cold starts and reduce latency
 - Optimise function configuration and dependencies to minimise startup time.
 - Implement strategies such as deploying warm-up requests periodically to maintain a certain level of readiness
