@@ -13,10 +13,12 @@ Serverless computing has emerged as a paradigm-shifting technology, enabling dev
 
 > Note this ideas have been taken from various sources I will be adding the reference links too !!
 
-- Utilise provisioned concurrency to keep functions warm and ready to respond quickly
+- #### Utilise provisioned concurrency to keep functions warm and ready to respond quickly
 	- Imagine having a team of experts on standby, ready to jump into action at a moment's notice. That's what provisioned concurrency does for serverless functions !! By keeping a pool of pre-initialised functions warm and ready, we can drastically cut down response times. This technique ensures that your functions are always primed to handle incoming requests, eliminating the delay caused by cold starts. With provisioned concurrency, your applications can react swiftly, providing a seamless user experience. It's like having a rapid response team at your back and call, ensuring your serverless functions are always ready to spring into action ! 
-- Use smaller, more focused functions to reduce the amount of code that need to be initialised.
+	
+- #### Use smaller, more focused functions to reduce the amount of code that need to be initialised.
 	- Trying to start a massive truck engine just to drive a short distance. Its inefficient ! Similarly, in serverless functions, initialising a lot of code for a small task can be wasteful. By breaking down functions into smaller, focused tasks, we can reduce the amount of code that needs to be started up. This is like using scooter for short trips instead of the massive trucks. Smaller functions mean less overheard, faster startups, and reduced latency. It's a simple yet effective way to make serverless applications more efficient and responsive, just like choosing
+	
 -  Employ caching mechanisms for frequently accessed data to reduce the need for repeated cold starts. 
 	- Think of caching like a shortcut to your favourite coffee shop. Instead of navigating through the entire city (making a cold start), you can take a quick detour to grab your coffee (access cached data). By storing frequently accessed data in a cache, we can avoid repeated cold starts and reduce latency
 - Optimise function configuration and dependencies to minimise startup time.

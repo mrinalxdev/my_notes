@@ -2,5 +2,5 @@
 
 Every research folder will be containing a final pdf which will be showcased in another Web page : (Link to be added soon)
 
-- [ ] Problem with cold start latency in serverless architecture 
+This is just a repo to back up my obsidian files for further use !!
 
