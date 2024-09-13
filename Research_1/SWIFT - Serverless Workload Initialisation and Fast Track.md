@@ -21,9 +21,3 @@ Serverless computing has emerged as a paradigm-shifting technology, enabling dev
 	
 - #### Employ caching mechanisms for frequently accessed data to reduce the need for repeated cold starts. 
 	- Think of caching like a shortcut to your favourite coffee shop. Instead of navigating through the entire city (making a cold start), you can take a quick detour to grab your coffee (access cached data). By storing frequently accessed data in a cache, we can avoid repeated cold starts and reduce latency
-- Optimise function configuration and dependencies to minimise startup time.
-- Implement strategies such as deploying warm-up requests periodically to maintain a certain level of readiness
-- Consider using serverless container options for more control over initialisation times 
-- Evaluate the trade-offs of different programming language and runtimes in terms of cold performance
-- Monitor cold start time and analyse patterns to identify opportunities for improvement.
-- Explore the use of serverless application frameworks that offer built-in optimisation for reducing cold start latency. 

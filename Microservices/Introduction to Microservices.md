@@ -37,5 +37,5 @@ In single micro-service we can observe that some major points
 
 	First We need to discuss what is cohesion ?
 			Cohesion means if there is a service named Orders then every features, data, functions related to Order should within the Order service or nearer to the service.
-			In Easy Language ==All features, business logic, data should be in kept nearest to the service==.
+			In Easy Language *All features, business logic, data should be in kept nearest to the service*.
 
